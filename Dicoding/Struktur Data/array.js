@@ -29,3 +29,10 @@ console.log('Array Splice')
 const arraySplice = ["Cokelat", 42.5, 22, true, "Programming"];
 arraySplice.splice(2, 1);   // Menghapus dari index 2 sebanyak 1 elemen
 console.log(arraySplice);
+
+// Array dengan For Loop
+console.log('Array For Loop')
+let arrayForLoop = ["Cokelat", 42.5, 22, true, "Programming"];
+for (let array of arrayForLoop){
+    console.log(array)
+}
