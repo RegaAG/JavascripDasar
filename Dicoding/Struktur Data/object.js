@@ -8,9 +8,7 @@ const user = {
     mahasiswa: true,
 };
 
-console.log(`Halo, nama saya ${user.firstName} ${user.lastName}`);
-console.log(`Umur saya ${user.age} tahun`);
-
+console.log(user['firstName'])
 // memodifikasi dan menambahkan sebuah object. Untuk mengubah nilai properti di dalam object kita gunakan assignment operator (=).
 
 const spaceship = {
@@ -37,6 +35,6 @@ const spaceship2 = {
 spaceship2.color = "Glossy red";
 spaceship2.maxSpeed = 1300;
 
-delete spaceship2.manufacturer;
+delete spaceship2['manufacturer'];
 
 console.log(spaceship2);
